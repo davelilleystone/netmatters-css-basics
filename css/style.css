@@ -17,6 +17,22 @@ a {
   text-decoration: none;
 }
 
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  border: 3px solid red;
+}
+
 #education {
   border: 3px solid red;
 }
@@ -60,6 +76,10 @@ header p {
 ol li {
   letter-spacing: 3px;
   color: tomato;
+}
+
+ol:first-child {
+  font-weight: bold;
 }
 
 ul li {
