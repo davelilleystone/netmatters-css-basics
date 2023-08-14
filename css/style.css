@@ -1,14 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 p {
   font-size: 26px;
   color: olive;
 }
 
-headerr {
+header {
   background-color: orange;
 }
 
@@ -24,6 +19,11 @@ a {
 
 #education {
   border: 3px solid red;
+}
+
+#education h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
 }
 
 #skills-list {
@@ -50,4 +50,18 @@ a {
 
 #proud {
   font-size: 48px;
+}
+
+header p {
+  background-color: snow;
+  border-bottom: 1px solid gray;
+}
+
+ol li {
+  letter-spacing: 3px;
+  color: tomato;
+}
+
+ul li {
+  list-style: none;
 }
