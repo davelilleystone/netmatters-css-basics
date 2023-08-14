@@ -78,6 +78,8 @@ ol li {
   color: tomato;
 }
 
+/* this highlights the first child element of the parent */
+
 ol:first-child {
   font-weight: bold;
 }
