@@ -5,6 +5,8 @@ p {
 
 header {
   background-color: orange;
+  width: 80%;
+  margin-left: 10%;
 }
 
 footer {
@@ -15,6 +17,15 @@ a {
   color: darkblue;
   background-color: peachpuff;
   text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 1.5rem;
 }
 
 a:link {
@@ -86,4 +97,9 @@ ol:first-child {
 
 ul li {
   list-style: none;
+}
+
+.header-box {
+  width: 50%;
+  background-color: tomato;
 }
