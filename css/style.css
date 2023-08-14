@@ -1,15 +1,23 @@
-body {
-  text-align: center;
-}
-
-header {
-  background-color: orange;
-}
-
-h1 {
-  font-size: 90px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 p {
-  font-size: 20px;
+  font-size: 26px;
+  color: olive;
+}
+
+headerr {
+  background-color: orange;
+}
+
+footer {
+  background-color: lightcoral;
+}
+
+a {
+  color: darkblue;
+  background-color: peachpuff;
+  text-decoration: none;
 }
